@@ -43,3 +43,6 @@ WantedBy=multi-user.target
 EOF
 ```
 
+## Done
+
+Reboot, and the display will update. The ticker is now a node.

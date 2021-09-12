@@ -51,4 +51,4 @@ EOF
 
 ## Done
 
-Reboot, and the display will update. The ticker is now a node.
+Reboot, and the display will update. The ticker is now a full bitcoin (lightning enabled) node.

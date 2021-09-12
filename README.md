@@ -8,13 +8,38 @@ A raspiblitz node, up and running. If you're building from scratch, here's the s
  
 # Instructions
 
-Login to your node over ssh.
+## Login to your node 
+
+Login over ssh.
 `ssh admin@<YOURNODEIP>`
+Using your node login password
 
 Edit `/home/pi/.bashrc` and comment out the last line of it.
 
 Exit, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
 
+## Install the ticker code 
 
+Following the instructions at https://github.com/llvllch/stonks
 
+## Add Autostart
+
+```
+cat <<EOF | sudo tee /etc/systemd/system/btcticker.service
+[Unit]
+Description=btcticker
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 -u /home/pi/stonks/cryptotick.py
+WorkingDirectory=/home/pi/btcticker/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
 

@@ -27,7 +27,7 @@ Exit, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
 
 ## Install the ticker code 
 
-Once you're logges into the node as user `pi`, following the installation instructions at https://github.com/llvllch/stonks
+Once you're logged into the node as user `pi`, following the installation instructions at https://github.com/llvllch/stonks
 
 ## Add Autostart
 

@@ -3,10 +3,14 @@
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCz5BOU9J9pB_O0B8-rDjCWQ?label=YouTube&style=social)](https://www.youtube.com/channel/UCz5BOU9J9pB_O0B8-rDjCWQ)
 
 # nodemode
-Instructions to get a [Raspiblitz bitcoin node](https://github.com/rootzoll/raspiblitz) to run the tickerXL price ticker code
+Instructions to get a [Raspiblitz bitcoin node](https://github.com/rootzoll/raspiblitz) to run the tickerXL price ticker code ([here](https://github.com/llvllch/stonks))
 
 # Prerequisite
 A raspiblitz node, up and running. If you're building from scratch, here's the shopping list for the components we used: 
+
+- Raspberry Pi 4 (4 or 8 Gb)
+- Heatsink
+- 1 TB SSD
  
 # Instructions
 

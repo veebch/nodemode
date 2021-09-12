@@ -38,7 +38,7 @@ After=network.target
 
 [Service]
 ExecStart=/usr/bin/python3 -u /home/pi/stonks/cryptotick.py
-WorkingDirectory=/home/pi/btcticker/
+WorkingDirectory=/home/pi/stonks/
 StandardOutput=inherit
 StandardError=inherit
 Restart=always

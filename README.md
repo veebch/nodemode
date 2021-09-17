@@ -24,9 +24,6 @@ Using your node login password
 Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment out (add a # to the beginning of the line) the line that reads `SCRIPT=/home/admin/00infoLCD.sh`(the last line in mine), changing it to
 `#SCRIPT=/home/admin/00infoLCD.sh` 
 
-
-Exit, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
-
 ## Fix the spi setup 
 
 Raspiblitz needs a couple of extra tools to run the epd display over spi
@@ -38,6 +35,8 @@ followed by adding admin and pi to the spi group.
  sudo usermod -a -G spi admin
  sudo usermod -a -G spi pi
 ```
+Reboot, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
+
 
 ## Install the ticker code 
 

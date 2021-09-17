@@ -21,7 +21,7 @@ Login over ssh.
 `ssh admin@<YOURNODEIP>`
 Using your node login password
 
-Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment out (add a # to the beginning of the line) the last line of it, changing it to
+Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment out (add a # to the beginning of the line) the line that reads `SCRIPT=/home/admin/00infoLCD.sh`(the last line in mine), changing it to
 `#SCRIPT=/home/admin/00infoLCD.sh` 
 
 

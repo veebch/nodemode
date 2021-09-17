@@ -26,7 +26,10 @@ Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment ou
 
 
 Exit, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
+
 ## Fix the spi setup 
+
+Raspiblitz needs a couple of extra tools to run the epd display over spi
 ```
  sudo apt install python-spidev python3-spidev
 ```

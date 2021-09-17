@@ -26,6 +26,15 @@ Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment ou
 
 
 Exit, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
+## Fix the spi setup 
+
+ sudo apt install python-spidev python3-spidev
+
+followed by adding admin and pi to the spi group.
+
+ sudo usermod -a -G spi admin
+ sudo usermod -a -G spi pi
+
 
 ## Install the ticker code 
 

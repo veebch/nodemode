@@ -35,8 +35,13 @@ followed by adding admin and pi to the spi group.
  sudo usermod -a -G spi admin
  sudo usermod -a -G spi pi
 ```
-Reboot, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
+There is also a line in `/boot/config.txt` that assigns the display to a waveshare device. Opend this file for editing with 
 
+    sudo nano /boot/config.txt
+   
+and delete or comment out the line.
+
+Reboot, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
 
 ## Install the ticker code 
 

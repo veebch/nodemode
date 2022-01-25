@@ -15,7 +15,7 @@ A [Raspiblitz](https://github.com/rootzoll/raspiblitz) node, up and running. If 
  
 # Instructions
 
-## Login to your node 
+## Log into your node 
 
 Login over ssh.
 `ssh admin@<YOURNODEIP>`

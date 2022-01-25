@@ -3,7 +3,8 @@
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCz5BOU9J9pB_O0B8-rDjCWQ?label=YouTube&style=social)](https://www.youtube.com/channel/UCz5BOU9J9pB_O0B8-rDjCWQ)
 
 # nodemode
-Instructions to get a [Raspiblitz bitcoin node](https://github.com/rootzoll/raspiblitz) to run the Veeb tickerXL price ticker code ([here](https://github.com/llvllch/stonks))
+Instructions to connect the [Veeb tickerXL](https://www.veeb.ch/store/p/tickerxl), running the price ticker code ([here](https://github.com/llvllch/stonks)) to
+a [Raspiblitz bitcoin node](https://github.com/rootzoll/raspiblitz).
 
 # Prerequisites
 A [Raspiblitz](https://github.com/rootzoll/raspiblitz) node, up and running. If you're building from scratch, here's the shopping list for the components we used: 

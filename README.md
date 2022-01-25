@@ -18,7 +18,9 @@ A [Raspiblitz](https://github.com/rootzoll/raspiblitz) node, up and running. If 
 ## Log in to your node 
 
 Login over ssh:
+
 `ssh admin@<YOURNODEIP>`
+
 Using your node login password (you will have chosen this during setup).
 
 Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment out (add a # to the beginning of the line) the line that reads `SCRIPT=/home/admin/00infoLCD.sh`(the last line in mine), changing it to

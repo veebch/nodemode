@@ -28,7 +28,7 @@ Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment ou
 
 ## Fix the spi setup 
 
-Raspiblitz needs a couple of extra tools to run the epaper display over SPI.
+Raspiblitz needs a couple of extra tools to run the epaper display over SPI:
 ```
  sudo apt install python-spidev python3-spidev
 ```
@@ -69,7 +69,10 @@ User=pi
 WantedBy=multi-user.target
 EOF
 ```
-
 ## Done
 
 Reboot, and the display will update. The ticker is now a full bitcoin (lightning enabled) node.
+
+## Licence 
+
+GPL 3.0 

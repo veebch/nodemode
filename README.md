@@ -28,7 +28,7 @@ Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment ou
 
 ## Fix the spi setup 
 
-Raspiblitz needs a couple of extra tools to run the epd display over spi
+Raspiblitz needs a couple of extra tools to run the epaper display over SPI.
 ```
  sudo apt install python-spidev python3-spidev
 ```

@@ -26,7 +26,7 @@ Using your node login password (you will have chosen this during setup).
 Edit `/home/pi/.bashrc` using the command `nano /home/pi/.bashrc` and comment out (add a # to the beginning of the line) the line that reads `SCRIPT=/home/admin/00infoLCD.sh`(the last line in mine), changing it to
 `#SCRIPT=/home/admin/00infoLCD.sh` 
 
-## Fix the spi setup 
+## SPI setup 
 
 Raspiblitz needs a couple of extra tools to run the epaper display over SPI:
 ```

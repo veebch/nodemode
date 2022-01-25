@@ -47,7 +47,7 @@ Reboot, and ssh back in as the user pi. `ssh pi@<YOURNODEIP>`
 
 ## Install the price ticker code 
 
-Once you're logged into the node as user `pi`, following the installation instructions at https://github.com/llvllch/stonks. To get the screen shown in the photo, the config file should be set to `maximalist: true` and `currency: bitcoin`.
+Once you're logged into the node as user `pi`, following the installation instructions at https://github.com/llvllch/stonks. To get the screen shown in the photo, the `config.yaml` file should contain `maximalist: true` and `currency: bitcoin`.
 
 ## Add Autostart
 

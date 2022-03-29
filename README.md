@@ -7,8 +7,7 @@ Instructions to connect the [Veeb tickerXL](https://www.veeb.ch/store/p/tickerxl
 
 # Prerequisites
 A [Raspiblitz](https://github.com/rootzoll/raspiblitz) node, up and running. If you're building from scratch, here's the shopping list for the components we used: 
-
-- Raspberry Pi 4 (4 or 8 Gb)
+- Raspberry Pi 4 (4 or 8 Gb) we've also had it running with a Raspberry Pi 3B 
 - [Heatsink](https://www.amazon.de/gp/product/B082Y21GX5/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1) (we only use the top half to get a snug fit to the display unit)
 - [1 TB SSD](https://www.amazon.de/gp/product/B087S2J4VB/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 - [TickerXL](https://www.veeb.ch/store/p/tickerxl)
